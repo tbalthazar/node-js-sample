@@ -6,6 +6,9 @@
   "keywords": ["node", "express", "static"],
   "environments": {
     "test": {
+      "env": {
+        "HEROKU_UAT": "enabled"
+      },
       "scripts": {
         "test": "echo testing..."
       },
